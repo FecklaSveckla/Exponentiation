@@ -6,7 +6,7 @@ public class Main {
 
         //System.out.println(service.calcSqr(10));
         int expected = 3;
-        int actual = service.calcSqr(200, 300);
+        int actual = service.squaringCalculation(200, 300);
         System.out.println(expected + " ==?== " + actual);
     }
 }

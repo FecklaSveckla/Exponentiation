@@ -10,7 +10,7 @@ public class SQRServiceTest {
         SQRService service = new SQRService();
 
         int expected = 3;
-        int actual = service.calcSqr(200, 300);
+        int actual = service.squaringCalculation(200, 300);
 
         Assertions.assertEquals(expected, actual);
     }
@@ -20,7 +20,7 @@ public class SQRServiceTest {
         SQRService service = new SQRService();
 
         int expected = 8;
-        int actual = service.calcSqr(100, 300);
+        int actual = service.squaringCalculation(100, 300);
 
         Assertions.assertEquals(expected, actual);
 
